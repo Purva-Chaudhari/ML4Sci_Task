@@ -3,7 +3,7 @@ After starting the interactive shell of Docker type the following command:
 1) docker run --rm --cap-add SYS_ADMIN --device /dev/fuse -it clelange/cc7-cmssw-cvmfs /bin/bash  
 (This may take few minutes to download and mount Fuse.)  
 The output might look like the following:  
-![GitHub Logo](/CMSSW_images/img1.png)
+![GitHub Logo](img1.png)
   
 2) cmsrel CMSSW_11_0_1  
 (This may take few minutes.)  
