@@ -16,7 +16,7 @@ The output might look like the following:
 The output might look like the following:  
 ![GitHub Logo](/CMSSW_images/img3.png)
   
-5) git clone https://github.com/Shra1-25/Cern_HSF_tasks.git  
+5) git clone https://github.com/Purva-Chaudhari/ML4Sci_Task.git 
 The output might look like the following:  
 ![GitHub Logo](/CMSSW_images/img4.png)
 6) cd Cern_HSF_tasks  
