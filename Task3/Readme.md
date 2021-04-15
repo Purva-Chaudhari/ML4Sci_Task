@@ -8,35 +8,26 @@ The output might look like the following:
 2) cmsrel CMSSW_11_0_1  
 (This may take few minutes.)  
 The output might look like the following:  
-![GitHub Logo](/CMSSW_images/img2.png)
+![GitHub Logo](img2.png)
   
 3) cd CMSSW_11_0_1/src  
 4) cmsenv  
 (This may take few minutes.)  
 The output might look like the following:  
-![GitHub Logo](/CMSSW_images/img3.png)
+![GitHub Logo](img3.png)
   
 5) git clone https://github.com/Purva-Chaudhari/ML4Sci_Task.git 
 The output might look like the following:  
-![GitHub Logo](/CMSSW_images/img4.png)
+![GitHub Logo](img4.png)
 6) cd Cern_HSF_tasks  
 7) scram b  
 The output might look like the following:  
-![GitHub Logo](/CMSSW_images/img5.png)
+![GitHub Logo](img5.png)
 8) python keras_inference.py  (Alternatively you can use cmsRun keras_inference.py)  
 (This might take few minutes while executing for the first time. After first execution the rest of the executions will not take much time.)  
 The script will ask the user to input batch size. The output might look like the following:  
 Using python keras_inference.py-  
-![GitHub Logo](/CMSSW_images/img6.png)  
+![GitHub Logo](img6.png)  
   
 Using cmsRun keras_inference.py-  
-![GitHub Logo](/CMSSW_images/img7.png)  
-## Inference  
-The ROC curve of the model1 is shown at the last cell of the Keras training notebook(Keras_CERN.ipynb).  
-The ROC AUC score of the model1 on the validation dataset is 0.796.  
-The ROC curve of the model1 on validation dataset is as follows:  
-![GitHub Logo](/CMSSW_images/img8.png)  
-You may view the above figure in the Keras_CERN.ipynb notebook too (last cell of the notebook).  
-The trained models have training accuracy of around 73% and validation accuracy of around 72%.  
-The inference script takes as input the following files: SingleElectronPt50_IMGCROPS_n249k_RHv1_inference.hdf5 and SinglePhotonPt50_IMGCROPS_n249k_RHv1_inference.hdf5 which are subsets of the original datasets as mentioned above. The script takes as input the batch size from user. The script will then randomly select the batch of the entered batch size from the input files, run the model on the batch and save the output in outputs.csv file alongwith displaying the predictions of first 20 samples and their ground truth values (i.e. true values).  
-The repository will be updated periodically after finetuning the model for improvising the accuracy.  
+![GitHub Logo](img7.png)  
